@@ -1,0 +1,18 @@
+
+KEY=/usr/share/keyrings/linux_signing_key.pub
+
+#Import the Google pubkey
+
+apt-key add $KEY
+
+#Create a list file with the repo
+
+echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome-stable.list
+
+#Visual notification
+
+notify-send 'Se va a instalar Google Chrome' 'El proceso de descarga e instalación puede durar unos minutos' -i google-chrome
+
+#Update the cache and install Chrome
+
+apt-get update && apt-get install google-chrome-stable -y
