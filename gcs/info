@@ -25,6 +25,6 @@ version: 1.0
 
 # Cambios en esta versión
 changes:
-    - En esta nueva versión...
+    - Prueba desde VScode
     - Modificado postinst.
     - Initial release.
