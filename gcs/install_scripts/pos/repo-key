@@ -9,7 +9,4 @@ apt-key add $KEY
 
 echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/gecosv4.list
 
-#Update cache
-
-apt-get update
 
