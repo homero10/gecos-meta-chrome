@@ -13,6 +13,4 @@ echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /et
 
 notify-send 'Se va a instalar Google Chrome' 'El proceso de descarga e instalación puede durar unos minutos' -i google-chrome
 
-#Update the cache and install Chrome
 
-apt-get update && apt-get install google-chrome-stable -y
