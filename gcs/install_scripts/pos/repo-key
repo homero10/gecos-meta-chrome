@@ -9,8 +9,5 @@ apt-key add $KEY
 
 echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome-stable.list
 
-#Visual notification
-
-notify-send 'Se va a instalar Google Chrome' 'El proceso de descarga e instalación puede durar unos minutos' -i google-chrome
 
 
