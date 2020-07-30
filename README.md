@@ -1,2 +1,2 @@
 # gecos-meta-chrome
-Package to configure repo, key and the Chrome browser on GECOS V4
+Package to configure Chrome repo and publickey on GECOS V4
