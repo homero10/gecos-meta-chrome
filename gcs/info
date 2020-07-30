@@ -25,5 +25,5 @@ version: 1.0
 
 # Cambios en esta versión
 changes:
+    - Modificado postinst
     - Initial release.
-    - Bla bla.
